@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.trip">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Trip">
+        <activity android:name=".HelperClasses.HomeAdapter.des1"></activity>
+        <activity android:name=".User.ListView1" />
+        <activity android:name=".User.addPlan" />
+        <activity android:name=".HelperClasses.HomeAdapter.PointInCity" />
+        <activity android:name=".HelperClasses.HomeAdapter.discriptionPoint" />
+        <activity
+            android:name=".User.RecyclerPoint"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".User.RecycleCity"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".User.DetailActivity2" />
+        <activity android:name=".HelperClasses.HomeAdapter.discription" />
+        <activity
+            android:name=".User.MapsActivity2"
+            android:label="@string/title_activity_maps2" />
+        <activity android:name=".User.AllPOIs" />
+        <activity android:name=".User.AllCities" />
+        <activity android:name=".User.AllCategories" />
+        <activity android:name=".User.MylocationActivity"></activity>
+        <activity android:name=".User.ReminderActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".User.MapActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Common.OnBoarding">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".User.UserDashboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <receiver android:name=".User.NotifierAlarm" />
+    </application>
+
+</manifest>

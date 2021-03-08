@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+        android:id="@+id/nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/menu_dashboard"/>
+
+        <item
+            android:id="@+id/nav_all_cities"
+            android:title="All Cities"
+            android:icon="@drawable/bank_icon"/>
+        <item
+            android:id="@+id/nav_all_pois"
+            android:title="All POIs"
+            android:icon="@drawable/bank_icon"/>
+     <!--   <item
+            android:id="@+id/nav_all_categories"
+            android:title="All Categories"
+            android:icon="@drawable/menu_categories"/>
+            -->
+<!--        <item-->
+<!--            android:id="@+id/nav_add_plase"-->
+<!--            android:title="Add Plases"-->
+<!--            android:icon="@drawable/add_missing_place_icone"/>-->
+    </group>
+
+
+    <item android:title="All Services">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_map"
+                    android:title="Map"
+                    android:icon="@drawable/add_place_icon"/>
+                <item
+                    android:id="@+id/nav_track"
+                    android:title="My Location"
+                    android:icon="@drawable/add_place_icon"/>
+
+                <item
+                    android:id="@+id/nav_add_tourplan"
+                    android:title="My Tour Plan"
+                    android:icon="@drawable/rem_icon"/>
+                <item
+                    android:id="@+id/nav_reminder"
+                    android:title="Reminder"
+                    android:icon="@drawable/rem2_icon"/>
+
+            </group>
+
+
+
+        </menu>
+
+
+
+
+    </item>
+<!--
+
+ <item android:title="Categories">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_university"
+                    android:title="All University"
+                    android:icon="@drawable/school_icon"/>
+
+                <item
+                    android:id="@+id/nav_hospials"
+                    android:title="All Hospital"
+                    android:icon="@drawable/menu_hospital"/>
+                <item
+                    android:id="@+id/nav_hotels"
+                    android:title="All Hotels"
+                    android:icon="@drawable/bank_icon"/>
+                <item
+                    android:id="@+id/nav_res"
+                    android:title="All Restorents"
+                    android:icon="@drawable/restaurant_icon"/>
+            </group>
+
+
+
+        </menu>
+
+
+
+
+    </item>
+
+-->
+
+<!--
+    <item android:title="Share">
+        <menu>
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="Share"
+                    android:icon="@drawable/menu_share"/>
+
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="Rate Us"
+                    android:icon="@drawable/menu_rate_us"/>
+
+            </group>
+
+
+
+        </menu>
+
+
+
+
+    </item>
+
+-->
+
+</menu>

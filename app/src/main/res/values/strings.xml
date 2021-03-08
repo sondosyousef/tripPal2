@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">TripPal</string>
+    <string name="logo_name">TripPal</string>
+    <string name="slogan_name">We will help you to find your way!</string>
+
+    <string name="access_token" translatable="false">pk.eyJ1Ijoic29uZG9zYXdhc2hyYSIsImEiOiJja2puZDV1ODQxNzRqMnJzMjZmeW43cWE3In0.4WSwMpXK8LYEuDMv8WEPXA</string>
+    <string name="user_location_permission_explanation">This app needs location permissions to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+
+
+    <!-- String for Boarding Screen -->
+
+    <string name="first_slide_title">Search Of POIs</string>
+    <string name="second_slide_title">View Info Of POIs</string>
+    <string name="third_slide_title">Add To My Tour Plan</string>
+    <string name="fourth_slide_title">Track And Navigation</string>
+
+
+    <!-- Descriptions -->
+    <string name="first_slide_desc">You can search of Cities and POIs on the Home page and map .</string>
+    <string name="second_slide_desc">You can view information about Cities and  POIs from Home page and map.</string>
+    <string name="thrid_slide_desc"> You can add POIs to your tour plan. </string>
+    <string name="fourth_slide_desc">You can add track and navigation between your location and POIs.</string>
+
+
+    <!-- buttons -->
+
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get started</string>
+
+    <!-- String for Dashboard -->
+
+    <!-- Categories -->
+    <string name="home">Home</string>
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="shops">Shops</string>
+    <string name="banks">Banks</string>
+    <string name="airports">Airports</string>
+
+    <!-- Titles and Description -->
+    <string name="featured_location">All Cities</string>
+    <string name="featured_location_description">All Cities in Plaestine and description like location,info,POIs and more. </string>
+    <string name="most_viewed_location">All POIs</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View All</string>
+    <string name="search_text">Search...</string>
+    <string name="title_activity_maps2">Map</string>
+
+    <!---->
+
+
+</resources>
